@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styled from "styled-components";
 
-import Heart from "../Components/Walksy.img/Icons/4243262_ux_heart_app_basic_icon.png";
-import Eye from "../Components/Walksy.img/Icons/game_skill_ui_eagle_eye_hawk_sight-256.webp";
-import Bag from "../Components/Walksy.img/Icons/8150278_bag_carry bag_shopping bag_briefcase_shop_icon.png";
+const Heart = `${process.env.PUBLIC_URL}/images/heart.png`;
+const Eye = `${process.env.PUBLIC_URL}/images/ice.webp`;
+const Bag = `${process.env.PUBLIC_URL}/images/buy.png`;
 
-import Shoes20 from "../Components/Walksy.img/Men`s shoes/5bca6c19-5048-489d-b859-757c3111c954-removebg-preview.png";
-import Shoes21 from "../Components/Walksy.img/Men`s shoes/1009c238-9e93-4795-b397-fef3e327adc0-removebg-preview.png";
-import Shoes22 from "../Components/Walksy.img/Men`s shoes/ea25c52c-dffc-41f0-9cca-ae5bc7bcd273-removebg-preview.png";
-import Shoes23 from "../Components/Walksy.img/Men`s shoes/modern-elegance-black-leather-sports-shoes-shine-generated-by-ai.png";
-import Shoes24 from "../Components/Walksy.img/Men`s shoes/shoes.jpg";
-import Shoes25 from "../Components/Walksy.img/Men`s shoes/cool-canvas-sneakers-men-s-apparel-summer-fashion-photoshoot-b.png";
-import Shoes26 from "../Components/Walksy.img/Men`s shoes/man-s-leg-white-sneakers.png";
-import Shoes27 from "../Components/Walksy.img/Men`s shoes/beautiful-black-leather-shoes.png";
-import Shoes28 from "../Components/Walksy.img/Men`s shoes/fashion-shoes-sneakers.png";
-import Shoes29 from "../Components/Walksy.img/Men`s shoes/childhood-cute-pair-child-baby.png";
-import Shoes30 from "../Components/Walksy.img/Men`s shoes/blue-sports-shoe-untied-ready-action-generated-by-ai.png";
-import Shoes31 from "../Components/Walksy.img/Men`s shoes/new-sneakers.png";
+const Shoes20 = `${process.env.PUBLIC_URL}/images/mensShoes1.png`;
+const Shoes21 = `${process.env.PUBLIC_URL}/images/mensShoes2.png`;
+const Shoes22 = `${process.env.PUBLIC_URL}/images/mensShoes3.png`;
+const Shoes23 = `${process.env.PUBLIC_URL}/images/mensShoes4.png`;
+const Shoes24 = `${process.env.PUBLIC_URL}/images/mensShoes5.png`;
+const Shoes25 = `${process.env.PUBLIC_URL}/images/mensShoes6.png`;
+const Shoes26 = `${process.env.PUBLIC_URL}/images/mensShoes7.png`;
+const Shoes27 = `${process.env.PUBLIC_URL}/images/mensShoes8.png`;
+const Shoes28 = `${process.env.PUBLIC_URL}/images/mensShoes9.png`;
+const Shoes29 = `${process.env.PUBLIC_URL}/images/mensShoes10.png`;
+const Shoes30 = `${process.env.PUBLIC_URL}/images/mensShoes11.png`;
+const Shoes31 = `${process.env.PUBLIC_URL}/images/mensShoes12.png`;
 
 const shoes = [
   {

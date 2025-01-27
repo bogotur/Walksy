@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styled from "styled-components";
 
-import Heart from "../Components/Walksy.img/Icons/4243262_ux_heart_app_basic_icon.png";
-import Eye from "../Components/Walksy.img/Icons/game_skill_ui_eagle_eye_hawk_sight-256.webp";
-import Bag from "../Components/Walksy.img/Icons/8150278_bag_carry bag_shopping bag_briefcase_shop_icon.png";
+const Heart = `${process.env.PUBLIC_URL}/images/heart.png`;
+const Eye = `${process.env.PUBLIC_URL}/images/ice.webp`;
+const Bag = `${process.env.PUBLIC_URL}/images/buy.png`;
 
-import Shoes32 from "../Components/Walksy.img/Action shoes/close-up-futuristic-sneakers-removebg-preview.png";
-import Shoes33 from "../Components/Walksy.img/Action shoes/close-up-futuristic-sneakers.png";
-import Shoes34 from "../Components/Walksy.img/Action shoes/close-up-girl-s-legs-red-keds-grass.png";
-import Shoes35 from "../Components/Walksy.img/Action shoes/multi-colored-sports-shoe-laces-tied-knot-generated-by-ai-b.png";
+const Shoes32 = `${process.env.PUBLIC_URL}/images/actionShoes1.png`;
+const Shoes33 = `${process.env.PUBLIC_URL}/images/actionShoes2.png`;
+const Shoes34 = `${process.env.PUBLIC_URL}/images/actionShoes3.png`;
+const Shoes35 = `${process.env.PUBLIC_URL}/images/actionShoes4.png`;
 
 const shoes = [
   {

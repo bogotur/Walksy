@@ -3,15 +3,14 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Modal, Form } from "react-bootstrap";
 
-import SearchIcon from "./Walksy.img/Icons/392504_find_in_magnifier_magnifying_research_icon.png";
-import UserIcon from "./Walksy.img/Icons/1_profile_user_avatar_account_person-132-256.webp";
-import HeartIcon from "./Walksy.img/Icons/4243262_ux_heart_app_basic_icon.png";
-import BagIcon from "./Walksy.img/Icons/622398_bag_shopping_basket_buy_ecommerce_icon.png";
+const SearchIcon = `${process.env.PUBLIC_URL}/images/find.png`;
+const UserIcon = `${process.env.PUBLIC_URL}/images/acount.png`;
+const HeartIcon = `${process.env.PUBLIC_URL}/images/heart.png`;
+const BagIcon = `${process.env.PUBLIC_URL}/images/buys.png`;
 
-import Instagram from "./Walksy.img/Icons/5335781_camera_instagram_social media_instagram logo_icon.png";
-import Facebook from "./Walksy.img/Icons/2959749_facebook_icon.png";
-import Google from "./Walksy.img/Icons/843776_google_icon.png";
-
+const Instagram = `${process.env.PUBLIC_URL}/images/instagram.png`;
+const Facebook = `${process.env.PUBLIC_URL}/images/facebook.png`;
+const Google = `${process.env.PUBLIC_URL}/images/google.png`;
 const titleStyle = {
   fontFamily: '"Poiret One", serif',
   fontWeight: 100,

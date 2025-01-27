@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styled from "styled-components";
 
-import Heart from "../Components/Walksy.img/Icons/4243262_ux_heart_app_basic_icon.png";
-import Eye from "../Components/Walksy.img/Icons/game_skill_ui_eagle_eye_hawk_sight-256.webp";
-import Bag from "../Components/Walksy.img/Icons/8150278_bag_carry bag_shopping bag_briefcase_shop_icon.png";
+const Heart = `${process.env.PUBLIC_URL}/images/heart.png`;
+const Eye = `${process.env.PUBLIC_URL}/images/ice.webp`;
+const Bag = `${process.env.PUBLIC_URL}/images/buy.png`;
 
-import Shoes1 from "../Components/Walksy.img/New shoes/id1.jpg";
-import Shoes2 from "../Components/Walksy.img/New shoes/id2.jpg";
-import Shoes3 from "../Components/Walksy.img/New shoes/id3.jpg";
-import Shoes4 from "../Components/Walksy.img/New shoes/id4.jpg";
-import Shoes5 from "../Components/Walksy.img/New shoes/id5.jpg";
-import Shoes6 from "../Components/Walksy.img/New shoes/id6.png";
+const Shoes1 = `${process.env.PUBLIC_URL}/images/newShoes1.jpg`;
+const Shoes2 = `${process.env.PUBLIC_URL}/images/newShoes2.jpg`;
+const Shoes3 = `${process.env.PUBLIC_URL}/images/newShoes3.jpg`;
+const Shoes4 = `${process.env.PUBLIC_URL}/images/newShoes4.jpg`;
+const Shoes5 = `${process.env.PUBLIC_URL}/images/newShoes5.jpg`;
+const Shoes6 = `${process.env.PUBLIC_URL}/images/newShoes6.jpg`;
 
 const shoes = [
   {

@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styled from "styled-components";
 
-import Heart from "../Components/Walksy.img/Icons/4243262_ux_heart_app_basic_icon.png";
-import Eye from "../Components/Walksy.img/Icons/game_skill_ui_eagle_eye_hawk_sight-256.webp";
-import Bag from "../Components/Walksy.img/Icons/8150278_bag_carry bag_shopping bag_briefcase_shop_icon.png";
+const Heart = `${process.env.PUBLIC_URL}/images/heart.png`;
+const Eye = `${process.env.PUBLIC_URL}/images/ice.webp`;
+const Bag = `${process.env.PUBLIC_URL}/images/buy.png`;
 
-import Shoes7 from "../Components/Walksy.img/Women`s shoes/pink-woman-sneakers-with-leather-suede-fabrics-removebg-preview.png";
-import Shoes8 from "../Components/Walksy.img/Women`s shoes/shiny-black-leather-shoes-exude-modern-luxury-generated-by-ai.png";
-import Shoes9 from "../Components/Walksy.img/Women`s shoes/cream-woman-sneakers-with-colourful-stones-it-golden-details-removebg-preview.png";
-import Shoes11 from "../Components/Walksy.img/Women`s shoes/woman-shoes.jpg";
-import Shoes12 from "../Components/Walksy.img/Women`s shoes/basic-white-sneakers-unisex-streetwear-fashion-shoot-b.png";
-import Shoes13 from "../Components/Walksy.img/Women`s shoes/classy-white-platform-shoes-stand-white-embroidered-cloth.png";
-import Shoes14 from "../Components/Walksy.img/Women`s shoes/close-up-person-wearing-futuristic-sneake.png";
-import Shoes15 from "../Components/Walksy.img/Women`s shoes/white-training-sneakers-unisex-sportswear-fashion-shoot.png";
-import Shoes16 from "../Components/Walksy.img/Women`s shoes/view-skateboard-with-retro-memorabilia.png";
-import Shoes17 from "../Components/Walksy.img/Women`s shoes/fashion-shoes-sneaker.png";
-import Shoes18 from "../Components/Walksy.img/Women`s shoes/close-up-person-wearing-futuristic-sneakers-removebg-preview.png";
-import Shoes19 from "../Components/Walksy.img/Women`s shoes/pink-canvas-sneakers-with-polka-dot-unisex-footwear-fashion-removebg-preview.png";
+const Shoes7 = `${process.env.PUBLIC_URL}/images/womensShoes1.png`;
+const Shoes8 = `${process.env.PUBLIC_URL}/images/womensShoes2.png`;
+const Shoes9 = `${process.env.PUBLIC_URL}/images/womensShoes3.png`;
+const Shoes11 = `${process.env.PUBLIC_URL}/images/womensShoes4.png`;
+const Shoes12 = `${process.env.PUBLIC_URL}/images/womensShoes5.png`;
+const Shoes13 = `${process.env.PUBLIC_URL}/images/womensShoes6.png`;
+const Shoes14 = `${process.env.PUBLIC_URL}/images/womensShoes7.png`;
+const Shoes15 = `${process.env.PUBLIC_URL}/images/womensShoes8.png`;
+const Shoes16 = `${process.env.PUBLIC_URL}/images/womensShoes9.png`;
+const Shoes17 = `${process.env.PUBLIC_URL}/images/womensShoes10.png`;
+const Shoes18 = `${process.env.PUBLIC_URL}/images/womensShoes11.png`;
+const Shoes19 = `${process.env.PUBLIC_URL}/images/womensShoes12.jpg`;
 
 const shoes = [
   {
