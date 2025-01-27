@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Walksy/static/css/main.fb961db8.css",
-    "main.js": "/Walksy/static/js/main.ed9c4b3d.js",
+    "main.js": "/Walksy/static/js/main.dfa719ad.js",
     "static/js/488.ba7de27b.chunk.js": "/Walksy/static/js/488.ba7de27b.chunk.js",
     "index.html": "/Walksy/index.html",
     "main.fb961db8.css.map": "/Walksy/static/css/main.fb961db8.css.map",
-    "main.ed9c4b3d.js.map": "/Walksy/static/js/main.ed9c4b3d.js.map",
+    "main.dfa719ad.js.map": "/Walksy/static/js/main.dfa719ad.js.map",
     "488.ba7de27b.chunk.js.map": "/Walksy/static/js/488.ba7de27b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb961db8.css",
-    "static/js/main.ed9c4b3d.js"
+    "static/js/main.dfa719ad.js"
   ]
 }
