@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Walksy/static/css/main.fb961db8.css",
-    "main.js": "/Walksy/static/js/main.eb7ade8e.js",
-    "static/js/488.ba7de27b.chunk.js": "/Walksy/static/js/488.ba7de27b.chunk.js",
-    "index.html": "/Walksy/index.html",
-    "main.fb961db8.css.map": "/Walksy/static/css/main.fb961db8.css.map",
-    "main.eb7ade8e.js.map": "/Walksy/static/js/main.eb7ade8e.js.map",
-    "488.ba7de27b.chunk.js.map": "/Walksy/static/js/488.ba7de27b.chunk.js.map"
+    "main.css": "/static/css/main.fb961db8.css",
+    "main.js": "/static/js/main.e982eb48.js",
+    "static/js/488.ba7de27b.chunk.js": "/static/js/488.ba7de27b.chunk.js",
+    "index.html": "/index.html",
+    "main.fb961db8.css.map": "/static/css/main.fb961db8.css.map",
+    "main.e982eb48.js.map": "/static/js/main.e982eb48.js.map",
+    "488.ba7de27b.chunk.js.map": "/static/js/488.ba7de27b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb961db8.css",
-    "static/js/main.eb7ade8e.js"
+    "static/js/main.e982eb48.js"
   ]
 }
