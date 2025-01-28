@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styled from "styled-components";
 
-const Heart = `${process.env.PUBLIC_URL}/images/heart.png`;
-const Eye = `${process.env.PUBLIC_URL}/images/ice.webp`;
-const Bag = `${process.env.PUBLIC_URL}/images/buy.png`;
+const Heart = `${process.env.PUBLIC_URL}/heart.png`;
+const Eye = `${process.env.PUBLIC_URL}/ice.webp`;
+const Bag = `${process.env.PUBLIC_URL}/buy.png`;
 
-const Shoes32 = `${process.env.PUBLIC_URL}/images/actionShoes1.png`;
-const Shoes33 = `${process.env.PUBLIC_URL}/images/actionShoes2.png`;
-const Shoes34 = `${process.env.PUBLIC_URL}/images/actionShoes3.png`;
-const Shoes35 = `${process.env.PUBLIC_URL}/images/actionShoes4.png`;
+const Shoes32 = `${process.env.PUBLIC_URL}/actionShoes1.png`;
+const Shoes33 = `${process.env.PUBLIC_URL}/actionShoes2.png`;
+const Shoes34 = `${process.env.PUBLIC_URL}/actionShoes3.png`;
+const Shoes35 = `${process.env.PUBLIC_URL}/actionShoes4.png`;
 
 const shoes = [
   {

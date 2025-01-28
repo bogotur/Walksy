@@ -2,7 +2,7 @@
   "name": "walksy",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://bogotur.github.io/walksy",
+  "homepage": "https://bogotur.github.io/Walksy",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "react": "^18.0.0",

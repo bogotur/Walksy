@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';  // Імпортуємо необхідні компоненти з react-router-dom
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';  // Імпортуємо необхідні компоненти з react-router-dom
 
 import Header from './Components/Header';
 import Home from './Pages/Home';

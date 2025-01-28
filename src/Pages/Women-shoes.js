@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styled from "styled-components";
 
-const Heart = `${process.env.PUBLIC_URL}/images/heart.png`;
-const Eye = `${process.env.PUBLIC_URL}/images/ice.webp`;
-const Bag = `${process.env.PUBLIC_URL}/images/buy.png`;
+const Heart = `${process.env.PUBLIC_URL}/heart.png`;
+const Eye = `${process.env.PUBLIC_URL}/ice.webp`;
+const Bag = `${process.env.PUBLIC_URL}/buy.png`;
 
-const Shoes7 = `${process.env.PUBLIC_URL}/images/womensShoes1.png`;
-const Shoes8 = `${process.env.PUBLIC_URL}/images/womensShoes2.png`;
-const Shoes9 = `${process.env.PUBLIC_URL}/images/womensShoes3.png`;
-const Shoes11 = `${process.env.PUBLIC_URL}/images/womensShoes4.png`;
-const Shoes12 = `${process.env.PUBLIC_URL}/images/womensShoes5.png`;
-const Shoes13 = `${process.env.PUBLIC_URL}/images/womensShoes6.png`;
-const Shoes14 = `${process.env.PUBLIC_URL}/images/womensShoes7.png`;
-const Shoes15 = `${process.env.PUBLIC_URL}/images/womensShoes8.png`;
-const Shoes16 = `${process.env.PUBLIC_URL}/images/womensShoes9.png`;
-const Shoes17 = `${process.env.PUBLIC_URL}/images/womensShoes10.png`;
-const Shoes18 = `${process.env.PUBLIC_URL}/images/womensShoes11.png`;
-const Shoes19 = `${process.env.PUBLIC_URL}/images/womensShoes12.jpg`;
+const Shoes7 = `${process.env.PUBLIC_URL}/womensShoes1.png`;
+const Shoes8 = `${process.env.PUBLIC_URL}/womensShoes2.png`;
+const Shoes9 = `${process.env.PUBLIC_URL}/womensShoes3.png`;
+const Shoes11 = `${process.env.PUBLIC_URL}/womensShoes4.png`;
+const Shoes12 = `${process.env.PUBLIC_URL}/womensShoes5.png`;
+const Shoes13 = `${process.env.PUBLIC_URL}/womensShoes6.png`;
+const Shoes14 = `${process.env.PUBLIC_URL}/womensShoes7.png`;
+const Shoes15 = `${process.env.PUBLIC_URL}/womensShoes8.png`;
+const Shoes16 = `${process.env.PUBLIC_URL}/womensShoes9.png`;
+const Shoes17 = `${process.env.PUBLIC_URL}/womensShoes10.png`;
+const Shoes18 = `${process.env.PUBLIC_URL}/womensShoes11.png`;
+const Shoes19 = `${process.env.PUBLIC_URL}/womensShoes12.jpg`;
 
 const shoes = [
   {

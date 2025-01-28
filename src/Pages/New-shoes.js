@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styled from "styled-components";
 
-const Heart = `${process.env.PUBLIC_URL}/images/heart.png`;
-const Eye = `${process.env.PUBLIC_URL}/images/ice.webp`;
-const Bag = `${process.env.PUBLIC_URL}/images/buy.png`;
+const Heart = `${process.env.PUBLIC_URL}/heart.png`;
+const Eye = `${process.env.PUBLIC_URL}/ice.webp`;
+const Bag = `${process.env.PUBLIC_URL}/buy.png`;
 
-const Shoes1 = `${process.env.PUBLIC_URL}/images/newShoes1.jpg`;
-const Shoes2 = `${process.env.PUBLIC_URL}/images/newShoes2.jpg`;
-const Shoes3 = `${process.env.PUBLIC_URL}/images/newShoes3.jpg`;
-const Shoes4 = `${process.env.PUBLIC_URL}/images/newShoes4.jpg`;
-const Shoes5 = `${process.env.PUBLIC_URL}/images/newShoes5.jpg`;
-const Shoes6 = `${process.env.PUBLIC_URL}/images/newShoes6.jpg`;
+const Shoes1 = `${process.env.PUBLIC_URL}/newShoes1.jpg`;
+const Shoes2 = `${process.env.PUBLIC_URL}/newShoes2.jpg`;
+const Shoes3 = `${process.env.PUBLIC_URL}/newShoes3.jpg`;
+const Shoes4 = `${process.env.PUBLIC_URL}/newShoes4.jpg`;
+const Shoes5 = `${process.env.PUBLIC_URL}/newShoes5.jpg`;
+const Shoes6 = `${process.env.PUBLIC_URL}/newShoes6.jpg`;
 
 const shoes = [
   {

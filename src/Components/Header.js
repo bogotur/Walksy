@@ -3,14 +3,15 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Modal, Form } from "react-bootstrap";
 
-const SearchIcon = `${process.env.PUBLIC_URL}/images/find.png`;
-const UserIcon = `${process.env.PUBLIC_URL}/images/acount.png`;
-const HeartIcon = `${process.env.PUBLIC_URL}/images/heart.png`;
-const BagIcon = `${process.env.PUBLIC_URL}/images/buys.png`;
+const SearchIcon = `${process.env.PUBLIC_URL}/find.png`;
+const UserIcon = `${process.env.PUBLIC_URL}/acount.png`;
+const HeartIcon = `${process.env.PUBLIC_URL}/heart.png`;
+const BagIcon = `${process.env.PUBLIC_URL}/buys.png`;
 
-const Instagram = `${process.env.PUBLIC_URL}/images/instagram.png`;
-const Facebook = `${process.env.PUBLIC_URL}/images/facebook.png`;
-const Google = `${process.env.PUBLIC_URL}/images/google.png`;
+const Instagram = `${process.env.PUBLIC_URL}/instagram.png`;
+const Facebook = `${process.env.PUBLIC_URL}/facebook.png`;
+const Google = `${process.env.PUBLIC_URL}/google.png`;
+
 const titleStyle = {
   fontFamily: '"Poiret One", serif',
   fontWeight: 100,

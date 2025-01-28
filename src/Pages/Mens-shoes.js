@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styled from "styled-components";
 
-const Heart = `${process.env.PUBLIC_URL}/images/heart.png`;
-const Eye = `${process.env.PUBLIC_URL}/images/ice.webp`;
-const Bag = `${process.env.PUBLIC_URL}/images/buy.png`;
+const Heart = `${process.env.PUBLIC_URL}/heart.png`;
+const Eye = `${process.env.PUBLIC_URL}/ice.webp`;
+const Bag = `${process.env.PUBLIC_URL}/buy.png`;
 
-const Shoes20 = `${process.env.PUBLIC_URL}/images/mensShoes1.png`;
-const Shoes21 = `${process.env.PUBLIC_URL}/images/mensShoes2.png`;
-const Shoes22 = `${process.env.PUBLIC_URL}/images/mensShoes3.png`;
-const Shoes23 = `${process.env.PUBLIC_URL}/images/mensShoes4.png`;
-const Shoes24 = `${process.env.PUBLIC_URL}/images/mensShoes5.png`;
-const Shoes25 = `${process.env.PUBLIC_URL}/images/mensShoes6.png`;
-const Shoes26 = `${process.env.PUBLIC_URL}/images/mensShoes7.png`;
-const Shoes27 = `${process.env.PUBLIC_URL}/images/mensShoes8.png`;
-const Shoes28 = `${process.env.PUBLIC_URL}/images/mensShoes9.png`;
-const Shoes29 = `${process.env.PUBLIC_URL}/images/mensShoes10.png`;
-const Shoes30 = `${process.env.PUBLIC_URL}/images/mensShoes11.png`;
-const Shoes31 = `${process.env.PUBLIC_URL}/images/mensShoes12.png`;
+const Shoes20 = `${process.env.PUBLIC_URL}/mensShoes1.png`;
+const Shoes21 = `${process.env.PUBLIC_URL}/mensShoes2.png`;
+const Shoes22 = `${process.env.PUBLIC_URL}/mensShoes3.png`;
+const Shoes23 = `${process.env.PUBLIC_URL}/mensShoes4.png`;
+const Shoes24 = `${process.env.PUBLIC_URL}/mensShoes5.png`;
+const Shoes25 = `${process.env.PUBLIC_URL}/mensShoes6.png`;
+const Shoes26 = `${process.env.PUBLIC_URL}/mensShoes7.png`;
+const Shoes27 = `${process.env.PUBLIC_URL}/mensShoes8.png`;
+const Shoes28 = `${process.env.PUBLIC_URL}/mensShoes9.png`;
+const Shoes29 = `${process.env.PUBLIC_URL}/mensShoes10.png`;
+const Shoes30 = `${process.env.PUBLIC_URL}/mensShoes11.png`;
+const Shoes31 = `${process.env.PUBLIC_URL}/mensShoes12.png`;
 
 const shoes = [
   {

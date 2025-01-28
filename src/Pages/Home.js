@@ -3,9 +3,9 @@ import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const Shoes1 = `${process.env.PUBLIC_URL}/images/backgroundShoes1.jpg`;
-const Shoes2 = `${process.env.PUBLIC_URL}/images/backgroundShoes2.jpg`;
-const Shoes3 = `${process.env.PUBLIC_URL}/images/backgroundShoes3.jpg`;
+const Shoes1 = `${process.env.PUBLIC_URL}/backgroundShoes1.jpg`;
+const Shoes2 = `${process.env.PUBLIC_URL}/backgroundShoes2.jpg`;
+const Shoes3 = `${process.env.PUBLIC_URL}/backgroundShoes3.jpg`;
 
 const ImageContainer = styled.div`
   width: 300px;
